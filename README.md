@@ -94,19 +94,19 @@ Install [Task](https://taskfile.dev), then:
 
 ## Workshop agenda
 
-| #  | Exercise                                                                                                       | Topic                                  |
-|----|----------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| 1  | [run-a-simple-workflow](run-a-simple-workflow/exercise/README.md)                                              | Run a simple workflow                  |
-| 2  | [introduce-interceptors](introduce-interceptors/exercise/README.md)                                            | Custom retry metrics with interceptors |
-| 3  | [use-interceptor-to-handle-auth-failure](use-interceptor-to-handle-auth-failure/README.md)                     | Auth failure handling via interceptors |
-| 4  | [applying-best-practices](applying-best-practices/exercise/README.md)                                          | Applying best practices                |
-| 5  | [spring-boot-integration](spring-boot-integration/README.md)                                                   | Spring Boot integration                |
-| 6  | [testing](testing/README.md)                                                                                   | Unit testing and replay testing        |
-| 7  | [worker-versioning](worker-versioning/README.md)                                                               | Worker versioning and migration        |
-| 8  | [priority-and-fairness](priority-and-fairness/README.md)                                                       | Priority and fair share processing     |
-| 9  | [saga-pattern-implementation](saga-pattern-implementation/exercise/README.md)                                  | Saga pattern with compensation         |
-| 10 | [dynamic-workflows-and-dsl](dynamic-workflows-and-dsl/exercise/README.md)                                      | Dynamic workflows and DSL              |
-| 11 | [worker-tuning](worker-tuning/README.md)                                                                       | Worker tuning and configuration        |
+| #  | Exercise                                                                                   | Topic                                  |
+|----|--------------------------------------------------------------------------------------------|----------------------------------------|
+| 1  | [run-a-simple-workflow](run-a-simple-workflow/exercise/README.md)                          | Run a simple workflow                  |
+| 2  | [spring-boot-integration](spring-boot-integration/README.md)                               | Spring Boot integration                |
+| 3  | [introduce-interceptors](introduce-interceptors/exercise/README.md)                        | Custom retry metrics with interceptors |
+| 4  | [use-interceptor-to-handle-auth-failure](use-interceptor-to-handle-auth-failure/README.md) | Auth failure handling via interceptors |
+| 5  | [applying-best-practices](applying-best-practices/exercise/README.md)                      | Applying best practices                |
+| 6  | [saga-pattern-implementation](saga-pattern-implementation/exercise/README.md)              | Saga pattern with compensation         |
+| 7  | [worker-versioning](worker-versioning/README.md)                                           | Worker versioning and migration        |
+| 8  | [testing](testing/README.md)                                                               | Unit testing and replay testing        |
+| 9  | [priority-and-fairness](priority-and-fairness/README.md)                                   | Priority and fair share processing     |
+| 10 | [dynamic-workflows-and-dsl](dynamic-workflows-and-dsl/exercise/README.md)                  | Dynamic workflows and DSL              |
+| 11 | [worker-tuning](worker-tuning/README.md)                                                   | Worker tuning and configuration        |
 
 ## License
 
