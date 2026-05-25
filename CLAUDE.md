@@ -58,8 +58,8 @@ curl -s http://localhost:3030/actuator/prometheus
   auth token propagation + local activity refresh
 - **applying-best-practices** — code
   organisation guidelines
-- **understand-temporal-integration-with-spring-boot**
-  — auto-registration of workers via Spring Boot
+- **spring-boot-integration** —
+  auto-registration of workers via Spring Boot
 - **testing** — unit testing with
   `TestWorkflowEnvironment` and replay tests
 - **worker-versioning** — pinned vs unpinned

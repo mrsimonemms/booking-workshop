@@ -100,7 +100,7 @@ Install [Task](https://taskfile.dev), then:
 | 2  | [introduce-interceptors](introduce-interceptors/exercise/README.md)                                            | Custom retry metrics with interceptors |
 | 3  | [use-interceptor-to-handle-auth-failure](use-interceptor-to-handle-auth-failure/README.md)                     | Auth failure handling via interceptors |
 | 4  | [applying-best-practices](applying-best-practices/exercise/README.md)                                          | Applying best practices                |
-| 5  | [understand-temporal-integration-with-spring-boot](understand-temporal-integration-with-spring-boot/README.md) | Spring Boot integration                |
+| 5  | [spring-boot-integration](spring-boot-integration/README.md)                                                   | Spring Boot integration                |
 | 6  | [testing](testing/README.md)                                                                                   | Unit testing and replay testing        |
 | 7  | [worker-versioning](worker-versioning/README.md)                                                               | Worker versioning and migration        |
 | 8  | [priority-and-fairness](priority-and-fairness/README.md)                                                       | Priority and fair share processing     |

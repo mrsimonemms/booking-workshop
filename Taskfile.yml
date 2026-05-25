@@ -21,7 +21,7 @@ tasks:
       - test:introduce-interceptors
       - test:priority-and-fairness
       - test:use-interceptor-to-handle-auth-failure
-      - test:understand-temporal-integration-with-spring-boot
+      - test:spring-boot-integration
       - test:testing
       - test:worker-versioning
       - test:worker-tuning
@@ -50,11 +50,11 @@ tasks:
       - task: _test
         vars: { SOLUTION: use-interceptor-to-handle-auth-failure }
 
-  test:understand-temporal-integration-with-spring-boot:
-    desc: Test understand-temporal-integration-with-spring-boot solution
+  test:spring-boot-integration:
+    desc: Test spring-boot-integration solution
     cmds:
       - task: _test
-        vars: { SOLUTION: understand-temporal-integration-with-spring-boot }
+        vars: { SOLUTION: spring-boot-integration }
 
   test:priority-and-fairness:
     desc: Test priority-and-fairness solution

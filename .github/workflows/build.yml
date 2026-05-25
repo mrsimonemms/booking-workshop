@@ -20,8 +20,8 @@ jobs:
           - use-interceptor-to-handle-auth-failure/solution          
           - applying-best-practices/exercise
           - applying-best-practices/solution
-          - understand-temporal-integration-with-spring-boot/exercise          
-          - understand-temporal-integration-with-spring-boot/solution
+          - spring-boot-integration/exercise
+          - spring-boot-integration/solution
           - testing/exercise          
           - testing/solution          
           - worker-versioning/exercise          
