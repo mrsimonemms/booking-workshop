@@ -78,20 +78,6 @@ cd <exercise>/exercise   # or solution
 ./mvnw spring-boot:run
 ```
 
-To run tests:
-
-```bash
-./mvnw test
-```
-
-### Run all solutions at once
-
-Install [Task](https://taskfile.dev), then:
-
-- `task test` — run all solution tests in parallel
-- `task test:<name>` — run a specific solution
-  (e.g. `task test:testing`)
-
 ## Workshop agenda
 
 | #  | Exercise                                                                                   | Topic                                  |
