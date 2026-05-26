@@ -253,11 +253,11 @@ multiple of 5 — just before the Activity finally
 succeeded.
 
 
-### Step 6 (Optional) - change the activity logic to counnt above 5.
-As an optional extension can you change the actiivty logic to retry 16 or more times and 
+### Step 6 (Optional) - change the activity logic to count above 5.
+As an optional extension can you change the activity logic to retry 16 or more times and 
 observe the metric being incremented several times.  
 It may be useful to change the activity retry policy to add a delay between retries so 
-it is possible to observe the counter metric being incremented.
+it is possible to observe the counter-metric being incremented.
 
 ## Key Takeaways
 
