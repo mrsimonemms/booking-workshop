@@ -134,7 +134,7 @@ This shows the workflow with all three steps succeeding and some failing at diff
 ```
 
 ```bash
-curl -s -X POST http://localhost:3030/greet \
+curl -s -X POST http://localhost:3030/hello \
     -H "Content-Type: application/json" \
     -d '{"firstName":"Xaio","lastName":"Zhan"}'
 ```
@@ -231,7 +231,7 @@ Start the application:
 #### Happy path
 
 ```bash
-curl -s -X POST http://localhost:3030/greet \
+curl -s -X POST http://localhost:3030/hello \
     -H "Content-Type: application/json" \
     -d '{"firstName":"Donald","lastName":"Forbes"}'
 ```
@@ -244,7 +244,7 @@ The logs should show `greet1`, `greet2`,
 #### Fail at step 2
 
 ```bash
-curl -s -X POST http://localhost:3030/greet \
+curl -s -X POST http://localhost:3030/hello \
     -H "Content-Type: application/json" \
     -d '{"firstName":"Fail-2","lastName":"Forbes"}'
 ```
@@ -258,7 +258,7 @@ because `greet2` never completed.
 #### Fail at step 3
 
 ```bash
-curl -s -X POST http://localhost:3030/greet \
+curl -s -X POST http://localhost:3030/hello \
     -H "Content-Type: application/json" \
     -d '{"firstName":"Fail-3","lastName":"Forbes"}'
 ```
