@@ -1,0 +1,56 @@
+document:
+  dsl: 1.0.0
+  taskQueue: zigflow
+  workflowType: approval-demo
+  version: 0.0.1
+  title: Approval Demo
+  metadata:
+    activityOptions:
+      startToCloseTimeout:
+        minutes: 1
+      retryPolicy:
+        maximumAttempts: 3
+
+input:
+  schema:
+    format: json
+    document:
+      type: object
+      required:
+        - bookingId
+        - userId
+      properties:
+        bookingId:
+          type: string
+        userId:
+          type: number
+
+do:
+  - initialise:
+      export:
+        as: 
+          data: ${ . }
+      set:
+        requestId: ${ uuid }
+        createdAt: ${ timestamp_iso8601 }
+        bookingId: ${ $input.bookingId }
+        userId: ${ $input.userId }
+
+  - sleep:
+      wait:
+        seconds: 5
+
+  - getUser:
+      export:
+        as: "${ $context + { user: . } }"
+      call: http
+      with:
+        method: get
+        endpoint: ${ "https://jsonplaceholder.typicode.com/users/" + ($input.userId | tostring) }
+
+  - recordDecision:
+      output:
+        as: "${ $context + { record: . } }"
+      set:
+        status: pending-approval
+        message: ${ "Booking " + $data.bookingId + " is awaiting approval" }

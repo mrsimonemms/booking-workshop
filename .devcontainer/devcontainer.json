@@ -9,7 +9,8 @@
       "installGradle": "false"
     },
     "ghcr.io/devcontainers-extra/features/temporal-cli:1": {},
-    "ghcr.io/devcontainers-extra/features/go-task:1": {}
+    "ghcr.io/devcontainers-extra/features/go-task:1": {},
+    "ghcr.io/mrsimonemms/devcontainers/zigflow:1": {}
   },
   "customizations": {
     "vscode": {
